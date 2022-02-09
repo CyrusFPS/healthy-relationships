@@ -1,14 +1,14 @@
 function App() {
   return (
-    <div className="App font-Poppins">
+    <body className="App font-Poppins">
 
       {/* Header */}
       <header>
         <nav className="container flex items-center py-4 mt-4 sm:mt-12">
           <div className="py-1"><img className="w-1/6 h-1/6" src="./images/sadd.png" alt="logo" /></div>
           <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
-            <li className="cursor-pointer">Features</li>
-            <li className="cursor-pointer">Pricing</li>
+            <li className="cursor-pointer ">Northbridge</li>
+            <li className="cursor-pointer">SADD</li>
             <li className="cursor-pointer">Contact</li>
             <button type="button" className="bg-sadd-pink text-white rounded-md px-7 py-3 uppercase">Login</button>
           </ul>
@@ -46,7 +46,7 @@ function App() {
           <div className="hidden md:block overflow-hidden bg-sadd-pink rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36"></div>
         </div>
       </section>
-    </div>
+    </body>
   )
 }
 
